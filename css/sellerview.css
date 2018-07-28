@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 13px;
+	background-color: #12280d;
+}
+
+#container{
+	margin: 40px auto 20px;
+	width: 610px;
+}
+#text{
+	padding-bottom:20px;
+	font-family:'Tangerine' serif;
+	font-size:50px;
+	text-align: center;
+	color:white;
+
+}
+#content{
+	width: 610px;
+	background-color: #281602;
+	border: 3px solid white;
+	border-radius: 25px;
+	padding-left:15px;
+	padding-bottom:10px;
+}
+#order{
+	width:580px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid white;
+	
+}
+#table{
+	padding-left:0px;
+	display:inline-block;
+}
+#ingredients{
+	display:inline-block;
+	
+}
+#finit{
+	display:inline-block;
+	background-color:gold;
+}
+
+#element{
+	margin-left:17px;
+	width:98px;
+	display:inline;
+}
+
+
+@media screen and (max-width:610px){
+
+#container{
+	max-width:100%;
+}
+#content{
+	max-width:100%;
+}
+
+#order{
+	max-width: 100%;
+}
+
+#element{
+	max-width: 33%;
+}
+}

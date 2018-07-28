@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 13px;
+	background-color: #12280d;
+}
+
+#all {
+	margin: 70px auto 20px;
+	width: 800px;
+	
+}
+
+#picture{
+	float:left;
+	display: inline;
+	max-width:40%;
+}
+
+.container {
+	width: 450px;
+	display:inline;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Tangerine", Monospace;
+	color: white;
+	padding-bottom: 5px;
+}
+
+.chat {
+	border: 1px solid #ccc;
+	height: 400px;
+	overflow-y: scroll;
+	background-color: #F6F6F2;
+	
+}
+
+.chat div {
+	margin: 10px 12px 15px;
+	line-height: 20px;
+}
+
+.chat .party {
+	font-weight: bold;
+}
+
+.chat .you {
+	color: #5d360b;
+}
+
+.chat .other {
+	color: #044c0b;
+}
+
+.chat .text {
+	
+}
+
+.busy {
+	position: absolute;
+	padding: 3px 0;
+	color: #666;
+	display: none;
+	font-size: 11px;
+}
+
+.input {
+	margin-top: 20px;
+	float:right;
+}
+
+.input input {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 525px;
+	border-radius: 5px;
+}
+
+#send{
+	display:block;
+	margin: auto;
+	margin-top:15px;
+	width:120px;
+
+}
+
+
+.input a {
+	
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+	padding: 5px 35px;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.input a:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:759px){
+
+#all{
+	max-width:98%;
+}
+
+.container{
+	max-width:60%;
+}
+
+img{
+	max-width:40%;
+}
+
+.input{
+	max-width: 60%;
+}
+
+.input input{
+	max-width: 100%;
+}
+
+}
+
+
+
